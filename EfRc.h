@@ -16,13 +16,8 @@ i - a number of PIN in pins array you called initEfRC.
 
 #if defined(ARDUINO) && ARDUINO >= 100
   #include <Arduino.h>
-  #include <new.h>
 #else
   #include <WProgram.h>
-  #include <pins_arduino.h>
-  #ifndef   LIBCALL_PINCHANGEINT
-    #include "../cppfix/cppfix.h"
-  #endif
 #endif
 
 #define MAX_PIN_NUMBER 8
