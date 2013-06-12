@@ -11,8 +11,8 @@ To get the delay time of HIGH signal from i PIN use getPPMDelay(byte i).
 i - a number of PIN in pins array you called initEfRC.
 */
 
-#ifndef efTx
-#define efTx
+#ifndef efRc
+#define efRc
 
 #if defined(ARDUINO) && ARDUINO >= 100
   #include <Arduino.h>
